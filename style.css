@@ -1,0 +1,32 @@
+#parent{
+    width: 100%;
+    margin:0;
+  }
+  #taskBox{
+    padding: 5px 5px;
+    background-color: rgb(233, 230, 230);
+    width: 45%;
+    float: left;
+  }
+  h1{
+    text-align: center;
+  }
+  #textBox{
+    margin-right: 5%;
+    width: 45%;
+    float: right;
+  }
+  #textBox input{
+    height:100px;
+    width: 100%;
+    font-size: 30px;
+    border: none;
+  }
+  #textBox input::placeholder{
+    text-align: center;
+    font-weight: bold;
+    font-size:40px;
+  }
+  #output-display{
+    color:white;
+  }
